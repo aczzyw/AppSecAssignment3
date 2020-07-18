@@ -1,0 +1,115 @@
+action: py36, msg: getenv
+cwd: D:\ShareFolder_Ubuntu\AppSecAssignment2
+cmd: 'D:\ShareFolder_Ubuntu\AppSecAssignment2\.tox\py36\Scripts\python.EXE' -m pip install -rrequirements.txt
+Collecting alembic==1.3.1
+  Using cached https://files.pythonhosted.org/packages/84/64/493c45119dce700a4b9eeecc436ef9e8835ab67bae6414f040cdc7b58f4b/alembic-1.3.1.tar.gz
+Collecting attrs==19.3.0
+  Using cached https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting certifi==2019.11.28
+  Using cached https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl
+Collecting chardet==3.0.4
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting Click==7.0
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
+Collecting coverage==5.0
+  Using cached https://files.pythonhosted.org/packages/9e/42/f9cc0dd32d01add63b7356ca78ffbc84344c0875634cc8203e7774c31a70/coverage-5.0-cp36-cp36m-win_amd64.whl
+Collecting docker==4.1.0
+  Using cached https://files.pythonhosted.org/packages/cc/ca/699d4754a932787ef353a157ada74efd1ceb6d1fc0bfb7989ae1e7b33111/docker-4.1.0-py2.py3-none-any.whl
+Collecting filelock==3.0.12
+  Using cached https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl
+Collecting Flask==1.1.1
+  Using cached https://files.pythonhosted.org/packages/9b/93/628509b8d5dc749656a9641f4caf13540e2cdec85276964ff8f43bbb1d3b/Flask-1.1.1-py2.py3-none-any.whl
+Collecting Flask-Login==0.4.1
+  Using cached https://files.pythonhosted.org/packages/c1/ff/bd9a4d2d81bf0c07d9e53e8cd3d675c56553719bbefd372df69bf1b3c1e4/Flask-Login-0.4.1.tar.gz
+Collecting Flask-Migrate==2.5.2
+  Using cached https://files.pythonhosted.org/packages/4b/22/d20a105f13c58fe590ef38ac59d5cabc1a917549ea8f90b0ca7b4e84f6be/Flask_Migrate-2.5.2-py2.py3-none-any.whl
+Collecting Flask-SQLAlchemy==2.4.1
+  Using cached https://files.pythonhosted.org/packages/1e/65/226d95466c75e34e291a76890ed0e27af2e46ab913002847856f11d4d59d/Flask_SQLAlchemy-2.4.1-py2.py3-none-any.whl
+Collecting Flask-WTF==0.14.2
+  Using cached https://files.pythonhosted.org/packages/60/3a/58c629472d10539ae5167dc7c1fecfa95dd7d0b7864623931e3776438a24/Flask_WTF-0.14.2-py2.py3-none-any.whl
+Collecting idna==2.8
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting importlib-metadata==1.3.0
+  Using cached https://files.pythonhosted.org/packages/e9/71/1a1e0ed0981bb6a67bce55a210f168126b7ebd2065958673797ea66489ca/importlib_metadata-1.3.0-py2.py3-none-any.whl
+Collecting itsdangerous==1.1.0
+  Using cached https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2==2.10.3
+  Using cached https://files.pythonhosted.org/packages/65/e0/eb35e762802015cab1ccee04e8a277b03f1d8e53da3ec3106882ec42558b/Jinja2-2.10.3-py2.py3-none-any.whl
+Collecting Mako==1.1.0
+  Using cached https://files.pythonhosted.org/packages/b0/3c/8dcd6883d009f7cae0f3157fb53e9afb05a0d3d33b3db1268ec2e6f4a56b/Mako-1.1.0.tar.gz
+Collecting MarkupSafe==1.1.1
+  Using cached https://files.pythonhosted.org/packages/b9/82/833c7714951bff8f502ed054e6fbd8bd00e083d1fd96de6a46905cf23378/MarkupSafe-1.1.1-cp36-cp36m-win_amd64.whl
+Collecting more-itertools==5.0.0
+  Using cached https://files.pythonhosted.org/packages/a4/a6/42f17d065bda1fac255db13afc94c93dbfb64393eae37c749b4cb0752fc7/more_itertools-5.0.0-py3-none-any.whl
+Collecting packaging==19.2
+  Using cached https://files.pythonhosted.org/packages/cf/94/9672c2d4b126e74c4496c6b3c58a8b51d6419267be9e70660ba23374c875/packaging-19.2-py2.py3-none-any.whl
+Collecting pluggy==0.13.1
+  Using cached https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Collecting py==1.8.0
+  Using cached https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl
+Collecting pyparsing==2.4.5
+  Using cached https://files.pythonhosted.org/packages/c0/0c/fc2e007d9a992d997f04a80125b0f183da7fb554f1de701bbb70a8e7d479/pyparsing-2.4.5-py2.py3-none-any.whl
+Collecting pytest==5.3.2
+  Using cached https://files.pythonhosted.org/packages/19/cf/711f1d887cb92c5155c9a1eb338f1b5d2411b50e4492a3b20e4a188a22b2/pytest-5.3.2-py3-none-any.whl
+Collecting python-dateutil==2.8.1
+  Using cached https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl
+Collecting python-dotenv==0.10.3
+  Using cached https://files.pythonhosted.org/packages/57/c8/5b14d5cffe7bb06bedf9d66c4562bf90330d3d35e7f0266928c370d9dd6d/python_dotenv-0.10.3-py2.py3-none-any.whl
+Collecting python-editor==1.0.4
+  Using cached https://files.pythonhosted.org/packages/c6/d3/201fc3abe391bbae6606e6f1d598c15d367033332bd54352b12f35513717/python_editor-1.0.4-py3-none-any.whl
+Collecting requests==2.22.0
+  Using cached https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl
+Collecting six==1.13.0
+  Using cached https://files.pythonhosted.org/packages/65/26/32b8464df2a97e6dd1b656ed26b2c194606c16fe163c695a992b36c11cdf/six-1.13.0-py2.py3-none-any.whl
+Collecting SQLAlchemy==1.3.11
+  Using cached https://files.pythonhosted.org/packages/34/5c/0e1d7ad0ca52544bb12f9cb8d5cc454af45821c92160ffedd38db0a317f6/SQLAlchemy-1.3.11.tar.gz
+Collecting toml==0.10.0
+  Using cached https://files.pythonhosted.org/packages/a2/12/ced7105d2de62fa7c8fb5fce92cc4ce66b57c95fb875e9318dba7f8c5db0/toml-0.10.0-py2.py3-none-any.whl
+Collecting tox==3.14.2
+  Using cached https://files.pythonhosted.org/packages/a7/64/73ee95a48a69fb40f9ce415cdeda09c0c2721da483aae0687884f3cb0586/tox-3.14.2-py2.py3-none-any.whl
+Collecting tox-travis==0.12
+  Using cached https://files.pythonhosted.org/packages/b9/62/940f7fdb0d207a90ebf8389b59679ed4c3b4b36357054a30dda6274ee6d0/tox_travis-0.12-py2.py3-none-any.whl
+Collecting urllib3==1.25.7
+  Using cached https://files.pythonhosted.org/packages/b4/40/a9837291310ee1ccc242ceb6ebfd9eb21539649f193a7c8c86ba15b98539/urllib3-1.25.7-py2.py3-none-any.whl
+Collecting virtualenv==16.7.8
+  Using cached https://files.pythonhosted.org/packages/62/77/6a86ef945ad39aae34aed4cc1ae4a2f941b9870917a974ed7c5b6f137188/virtualenv-16.7.8-py2.py3-none-any.whl
+Collecting wcwidth==0.1.7
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting websocket-client==0.56.0
+  Using cached https://files.pythonhosted.org/packages/29/19/44753eab1fdb50770ac69605527e8859468f3c0fd7dc5a76dd9c4dbd7906/websocket_client-0.56.0-py2.py3-none-any.whl
+Collecting Werkzeug==0.16.0
+  Using cached https://files.pythonhosted.org/packages/ce/42/3aeda98f96e85fd26180534d36570e4d18108d62ae36f87694b476b83d6f/Werkzeug-0.16.0-py2.py3-none-any.whl
+Collecting WTForms==2.2.1
+  Using cached https://files.pythonhosted.org/packages/9f/c8/dac5dce9908df1d9d48ec0e26e2a250839fa36ea2c602cc4f85ccfeb5c65/WTForms-2.2.1-py2.py3-none-any.whl
+Collecting zipp==0.6.0
+  Using cached https://files.pythonhosted.org/packages/74/3d/1ee25a26411ba0401b43c6376d2316a71addcc72ef8690b101b4ea56d76a/zipp-0.6.0-py2.py3-none-any.whl
+Collecting pypiwin32==223; sys_platform == "win32" and python_version >= "3.6"
+  Using cached https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+Collecting atomicwrites>=1.0; sys_platform == "win32"
+  Using cached https://files.pythonhosted.org/packages/2c/a0/da5f49008ec6e9a658dbf5d7310a4debd397bce0b4db03cf8a410066bb87/atomicwrites-1.4.0-py2.py3-none-any.whl
+Collecting colorama; sys_platform == "win32"
+  Using cached https://files.pythonhosted.org/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl
+Collecting pywin32>=223
+  Using cached https://files.pythonhosted.org/packages/e7/8a/8458687e4f1a7978bd59f8fd0bc4e6c56cf640c551877ca9a3e35239ae5b/pywin32-228-cp36-cp36m-win_amd64.whl
+Building wheels for collected packages: alembic, Flask-Login, Mako, SQLAlchemy
+  Building wheel for alembic (setup.py): started
+  Building wheel for alembic (setup.py): finished with status 'done'
+  Created wheel for alembic: filename=alembic-1.3.1-py2.py3-none-any.whl size=144529 sha256=d2d73bc7b6df5cb7578d9a8cc8cbcd3d7022d6800406f14a77b99fdbcace94fd
+  Stored in directory: C:\Users\aczzy\AppData\Local\pip\Cache\wheels\b2\d4\19\5ab879d30af7cbc79e6dcc1d421795b1aa9d78f455b0412ef7
+  Building wheel for Flask-Login (setup.py): started
+  Building wheel for Flask-Login (setup.py): finished with status 'done'
+  Created wheel for Flask-Login: filename=Flask_Login-0.4.1-py2.py3-none-any.whl size=15939 sha256=62d1e46d665c9f15972d9b02c7aec1b3f2502688bdeede276794895ac1b18fde
+  Stored in directory: C:\Users\aczzy\AppData\Local\pip\Cache\wheels\39\10\74\d68194e28d5f7a83de5f66e5b2deff5ccbb424fe45e6b0e927
+  Building wheel for Mako (setup.py): started
+  Building wheel for Mako (setup.py): finished with status 'done'
+  Created wheel for Mako: filename=Mako-1.1.0-cp36-none-any.whl size=75369 sha256=9f2cd8e95ad8e2587f67193ded232a1899bff3ed95b1f360af8903866a5700ad
+  Stored in directory: C:\Users\aczzy\AppData\Local\pip\Cache\wheels\98\32\7b\a291926643fc1d1e02593e0d9e247c5a866a366b8343b7aa27
+  Building wheel for SQLAlchemy (setup.py): started
+  Building wheel for SQLAlchemy (setup.py): finished with status 'done'
+  Created wheel for SQLAlchemy: filename=SQLAlchemy-1.3.11-cp36-cp36m-win_amd64.whl size=1173013 sha256=697289980591e49a94f3159b6aabba00355b3a19dc706e7f89fa36bc4715acaf
+  Stored in directory: C:\Users\aczzy\AppData\Local\pip\Cache\wheels\a3\67\7d\6c41104a1a08ff1a25e260d3edec3ac19203141d1aaa2f0975
+Successfully built alembic Flask-Login Mako SQLAlchemy
+Installing collected packages: SQLAlchemy, MarkupSafe, Mako, python-editor, six, python-dateutil, alembic, attrs, certifi, chardet, Click, coverage, pywin32, pypiwin32, idna, urllib3, requests, websocket-client, docker, filelock, Jinja2, Werkzeug, itsdangerous, Flask, Flask-Login, Flask-SQLAlchemy, Flask-Migrate, WTForms, Flask-WTF, more-itertools, zipp, importlib-metadata, pyparsing, packaging, pluggy, py, atomicwrites, colorama, wcwidth, pytest, python-dotenv, toml, virtualenv, tox, tox-travis
+Successfully installed Click-7.0 Flask-1.1.1 Flask-Login-0.4.1 Flask-Migrate-2.5.2 Flask-SQLAlchemy-2.4.1 Flask-WTF-0.14.2 Jinja2-2.10.3 Mako-1.1.0 MarkupSafe-1.1.1 SQLAlchemy-1.3.11 WTForms-2.2.1 Werkzeug-0.16.0 alembic-1.3.1 atomicwrites-1.4.0 attrs-19.3.0 certifi-2019.11.28 chardet-3.0.4 colorama-0.4.3 coverage-5.0 docker-4.1.0 filelock-3.0.12 idna-2.8 importlib-metadata-1.3.0 itsdangerous-1.1.0 more-itertools-5.0.0 packaging-19.2 pluggy-0.13.1 py-1.8.0 pyparsing-2.4.5 pypiwin32-223 pytest-5.3.2 python-dateutil-2.8.1 python-dotenv-0.10.3 python-editor-1.0.4 pywin32-228 requests-2.22.0 six-1.13.0 toml-0.10.0 tox-3.14.2 tox-travis-0.12 urllib3-1.25.7 virtualenv-16.7.8 wcwidth-0.1.7 websocket-client-0.56.0 zipp-0.6.0
+WARNING: You are using pip version 19.3.1; however, version 20.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
